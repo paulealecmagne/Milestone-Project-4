@@ -1,0 +1,8 @@
+category,cases,vader_accuracy,naive_bayes_accuracy,claude_accuracy
+contrast,6,0.8333,0.5,1.0
+idiomatic,1,1.0,1.0,1.0
+implicit,5,0.8,1.0,1.0
+intensification,1,1.0,1.0,1.0
+mixed,7,0.8571,0.8571,1.0
+negation,6,0.6667,0.5,1.0
+sarcasm,4,0.0,0.5,1.0

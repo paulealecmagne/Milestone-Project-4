@@ -1,0 +1,14 @@
+case_id,text,label,category,vader_prediction,nb_prediction,claude_prediction,claude_raw_response,input_tokens,output_tokens,latency_seconds,vader_correct,nb_correct,claude_correct
+4,"The beginning was slow, but the ending made the entire experience worthwhile.",positive,contrast,positive,negative,positive,positive,112,4,0.8453739000251517,True,False,True
+5,I would not say it was boring; it kept me interested throughout.,positive,negation,positive,negative,positive,positive,107,4,0.8475777000421658,True,False,True
+11,"The trailer made it look terrible, so I was surprised by how good it was.",positive,contrast,positive,negative,positive,positive,111,4,0.9278806000947952,True,False,True
+12,It was hardly a waste of time.,positive,negation,negative,negative,positive,positive,99,4,0.7959604999050498,False,False,True
+16,What a brilliant idea: make a two-hour movie where nothing happens.,negative,sarcasm,positive,negative,negative,negative,112,4,1.1347058999817818,False,True,True
+20,The actors did their best with a script that should never have been approved.,negative,mixed,positive,negative,negative,negative,105,4,0.913058300036937,False,True,True
+21,"If falling asleep was the goal, this film succeeded brilliantly.",negative,sarcasm,positive,positive,negative,negative,111,4,0.7665934000397101,False,False,True
+22,The movie is beautifully filmed and painfully empty.,negative,mixed,negative,positive,negative,negative,106,46,1.1691707000136375,True,False,True
+23,I cannot remember the last time a comedy made me laugh this little.,negative,negation,positive,positive,negative,negative,109,4,0.8552647000178695,False,False,True
+25,The only good part was when the credits finally appeared.,negative,sarcasm,positive,negative,negative,negative,103,4,0.776850999915041,False,True,True
+26,"The performance was fine, which is more than I can say for the rest of the movie.",negative,contrast,positive,positive,negative,negative,111,4,0.840509400004521,False,False,True
+27,I wish the story had been half as interesting as the poster.,negative,implicit,positive,negative,negative,negative,105,4,0.8982393000042066,False,True,True
+28,This was definitely a movie that existed.,negative,sarcasm,positive,positive,negative,negative,100,52,1.0500946999527514,False,False,True

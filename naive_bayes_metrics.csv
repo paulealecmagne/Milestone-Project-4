@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,seconds_per_1000,cost_per_1000
+NLTK + Naive Bayes,0.84,0.8399715504978662,0.008860666615267593,0.0
