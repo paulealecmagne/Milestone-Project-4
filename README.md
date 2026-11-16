@@ -39,7 +39,7 @@ Create a .env file in the project directory:
 Do not commit the .env file to GitHub.
 
 3. Run the notebooks in order
-notebooks/imdb.ipynb
+notebooks/01_data.ipynb
 notebooks/02_vader.ipynb
 notebooks/03_classic_ml.ipynb
 notebooks/04_llm.ipynb
