@@ -2,11 +2,11 @@
 This repository is for my works in Milestone Project 4
 
 # IMDB Sentiment Analysis Model Comparison
-Project Overview
+## Project Overview
 This project compares three approaches to sentiment analysis using the IMDB movie review dataset:
 
 # VADER
-TF-IDF + Multinomial Naive Bayes
+## TF-IDF + Multinomial Naive Bayes
 Claude Haiku 5.5
 The goal is to compare the models based on predictive performance, hard-case performance, speed, and cost.
 
@@ -18,7 +18,7 @@ negative
 A fixed and stratified test set of 300 reviews is used for all three models to maintain a consistent comparison.
 
 # Models
-VADER
+## VADER
 VADER serves as the rule-based baseline and does not require training.
 
 # TF-IDF + Naive Bayes
@@ -64,3 +64,11 @@ For large-scale and straightforward sentiment classification, TF-IDF + Naive Bay
 For more complex or context-dependent language, Claude provides stronger performance, particularly for sarcasm, negation, contrast, and implicit sentiment.
 
 A hybrid approach could use Naive Bayes for routine classifications and Claude for more difficult or uncertain cases.
+
+# Dataset Files
+The full IMDB dataset and training split are not included in this repository due to file size limitations.
+
+The repository includes:
+
+test_300.csv - fixed evaluation set used across all three models
+hard_cases.csv - 30-item challenging sentiment evaluation set
