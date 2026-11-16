@@ -37,36 +37,33 @@ The reviews are converted into TF-IDF features and classified using Multinomial 
 Claude Haiku 5.5 is evaluated using zero-shot classification through the Anthropic API.
 
 ## How to Run
-
-### 1. Install dependencies
-
 ```bash
+
+## 1. Install dependencies
 pip install -r requirements.txt
 
-### 2. Configure the Claude API
+## 2. Configure the Claude API
 ANTHROPIC_API_KEY=your_api_key_here
 
-### 3. Run the notebooks in order
+## 3. Run the notebooks in order
 01_data.ipynb
 02_vader.ipynb
 03_classic_ml.ipynb
 04_llm.ipynb
 05_compare.ipynb
 
-### Results
+## Results
 Model	Accuracy	Macro-F1	Hard Cases	Sec / 1K	Cost / 1K
 VADER	69.67%	68.84%	70%	2.487	$0
 TF-IDF + Naive Bayes	84.00%	84.00%	70%	0.009	$0
 Claude Haiku 5.5	92.00%	91.96%	100%	860.997	$0.053
 
-### Key Findings
-
+## Key Findings
 Claude Haiku 5.5 achieved the strongest overall performance and correctly classified all 30 hard-case examples.
 TF-IDF + Naive Bayes provided the best balance between performance, speed, and cost.
 VADER provided a useful rule-based baseline but had more difficulty with complex language such as sarcasm and negation.
 
-### Final Recommendation
-
+## Final Recommendation
 For large-scale and straightforward sentiment classification, TF-IDF + Naive Bayes provides a practical and efficient option.
 For more complex or context-dependent language, Claude provides stronger performance, particularly for sarcasm, negation, contrast, and implicit sentiment.
 A hybrid approach could use Naive Bayes for routine classifications and Claude for more difficult or uncertain cases.
