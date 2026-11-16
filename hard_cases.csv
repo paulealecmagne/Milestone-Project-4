@@ -1,0 +1,31 @@
+case_id,text,label,category
+1,"I expected to hate this movie, but I absolutely loved it.",positive,contrast
+2,The movie was not bad at all and was surprisingly enjoyable.,positive,negation
+3,"It is not the greatest film ever made, but it is still worth watching.",positive,mixed
+4,"The beginning was slow, but the ending made the entire experience worthwhile.",positive,contrast
+5,I would not say it was boring; it kept me interested throughout.,positive,negation
+6,"The acting was imperfect, yet the story had genuine heart.",positive,mixed
+7,"Against my better judgment, I found myself enjoying every minute.",positive,implicit
+8,This film had no right to be this entertaining.,positive,idiomatic
+9,"I rarely rewatch movies, but I would gladly watch this again.",positive,implicit
+10,"Despite its flaws, the film delivers a memorable and rewarding experience.",positive,mixed
+11,"The trailer made it look terrible, so I was surprised by how good it was.",positive,contrast
+12,It was hardly a waste of time.,positive,negation
+13,"The plot is simple, but the execution is excellent.",positive,contrast
+14,"Not only was it funny, it was also unexpectedly moving.",positive,negation
+15,I went in with low expectations and came out impressed.,positive,implicit
+16,What a brilliant idea: make a two-hour movie where nothing happens.,negative,sarcasm
+17,"The special effects were impressive, but everything else was disappointing.",negative,contrast
+18,"I wanted to enjoy this movie, but it gave me no reason to.",negative,implicit
+19,It was not exactly the exciting experience the advertisements promised.,negative,negation
+20,The actors did their best with a script that should never have been approved.,negative,mixed
+21,"If falling asleep was the goal, this film succeeded brilliantly.",negative,sarcasm
+22,The movie is beautifully filmed and painfully empty.,negative,mixed
+23,I cannot remember the last time a comedy made me laugh this little.,negative,negation
+24,It starts badly and somehow gets worse.,negative,intensification
+25,The only good part was when the credits finally appeared.,negative,sarcasm
+26,"The performance was fine, which is more than I can say for the rest of the movie.",negative,contrast
+27,I wish the story had been half as interesting as the poster.,negative,implicit
+28,This was definitely a movie that existed.,negative,sarcasm
+29,"Nothing about it was terrible, yet nothing was worth recommending either.",negative,mixed
+30,"I did not dislike every scene, but the overall experience was exhausting.",negative,mixed
