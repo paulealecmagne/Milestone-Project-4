@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+nltk
+vaderSentiment
+anthropic
+python-dotenv
+joblib
